@@ -98,9 +98,9 @@ struct App {
 
 struct Config {
     pub name: String,
-    pub _icon: PathBuf,
+    pub icon: PathBuf,
     pub api_level: u32,
-    pub _external_data: Option<PathBuf>,
+    pub external_data: Option<PathBuf>,
 }
 
 fn is_u8_slice(ty: Type) -> bool {
